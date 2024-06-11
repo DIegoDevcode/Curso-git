@@ -2,16 +2,25 @@ body{
     color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
 }
 
 #container{
     width: 70%;
     padding: 2em;
-    text-align: left;
-    border:  1px solid red;
+    text-align: center;
+    border:  3px solid rgb(13, 110, 21);
     margin: 0 auto;
-    padding-top: auto;
 }
-#container h1{
-    font-size: 20px;
+#post h1{
+    font-size: 40px;
+}
+
+#post p{
+    font-size: 1.5rem;
+    color: brown;
+    font-weight: bolder;
 }
